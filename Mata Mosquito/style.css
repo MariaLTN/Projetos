@@ -1,0 +1,56 @@
+/*Alterando o cursor*/
+html {
+  cursor: url("Imagens/mata_mosquito.png") 30 30, auto;
+}
+
+/*Caracterização do Mosquitinho*/
+.Mosquito_Tamanho_1 {
+  width: 40px;
+  height: 40px;
+}
+
+.Mosquito_Tamanho_2 {
+  width: 30px;
+  height: 30px;
+}
+
+.Mosquito_Tamanho_3 {
+  width: 50px;
+  height: 50px;
+}
+
+.Mosquito_Esquerdo {
+  transform: scaleX(1);
+  /*Lado original, não precisaria nem implementar*/
+}
+.Mosquito_Direito {
+  transform: scaleX(-1);
+}
+
+/*Criação do cenário*/
+body {
+  background-image: url("Imagens/bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.Painel {
+  position: absolute;
+  width: 190px;
+  padding: 10px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid white;
+  background-color: white;
+  opacity: 0.7;
+}
+
+.Vidas {
+  float: left;
+}
+
+.Cronometro {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
