@@ -1,0 +1,5 @@
+Professor, leia isto antes de rodar o "ModelagemTopicos"
+
+Eu usei 3 dataset para esse projeto, um que foi rodado na seção "Implementação" para mostrar como as funções devem funcionar e como será o resultado esperado. Esse dataset é originalmente muito grande, por isso não consegui nem subir no GitHub, mas aqui está o link de onde eu consegui o dataset: https://www.kaggle.com/harmanpreet93/hotelreviews 
+
+Os outros dois dataset estão aqui no github.
